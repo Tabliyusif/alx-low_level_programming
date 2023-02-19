@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - display size of c program
+ * main - this is the main function
  *
  * Return: 0 if successful
  */
 
-int main(void)
+int main(void);
 {
 	printf("Size of a char: %lu byte(s)", sizeof(char));
 	printf("Size of an int: %lu byte(s)", sizeof(int));
